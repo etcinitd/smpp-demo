@@ -128,7 +128,7 @@ public class ClientMain {
             submit0.setRegisteredDelivery(SmppConstants.REGISTERED_DELIVERY_SMSC_RECEIPT_REQUESTED);
 
             //submit0.setSourceAddress(new Address((byte)0x03, (byte)0x00, "40404"));
-            submit0.setDestAddress(new Address((byte)0x01, (byte)0x01, "61424202328"));
+            submit0.setDestAddress(new Address((byte)0x01, (byte)0x01, "61488858880"));
             submit0.setShortMessage(textBytes);
 
             SubmitSmResp submitResp = session0.submit(submit0, 10000);
